@@ -16,27 +16,9 @@ A web-based expense management application developed using Python, Django, and M
 
 \* Category Management
 
+\* Add, View, Update, and Delete Categories
 
-
-&#x20; \* Add Category
-
-&#x20; \* View Categories
-
-&#x20; \* Update Category
-
-&#x20; \* Delete Category
-
-\* Expense Management
-
-
-
-&#x20; \* Add Expense
-
-&#x20; \* View Expenses
-
-&#x20; \* Update Expense
-
-&#x20; \* Delete Expense
+\* Add, View, Update, and Delete Expenses
 
 \* Search expenses by description
 
@@ -126,9 +108,9 @@ Fields:
 
 
 
-\* `id`
+\* id
 
-\* `name`
+\* name
 
 
 
@@ -144,17 +126,17 @@ Fields:
 
 
 
-\* `id`
+\* id
 
-\* `category`
+\* category
 
-\* `amount`
+\* amount
 
-\* `description`
+\* description
 
-\* `expense\_date`
+\* expense\_date
 
-\* `created\_at`
+\* created\_at
 
 
 
@@ -170,11 +152,11 @@ Fields:
 
 
 
-\* `id`
+\* id
 
-\* `category`
+\* category
 
-\* `monthly\_limit`
+\* monthly\_limit
 
 
 
@@ -182,85 +164,129 @@ Fields:
 
 
 
-1\. Clone the repository:
+\### 1. Clone the repository
 
 
 
-bash
+```bash
 
-git clone <repository-url>
+git clone https://github.com/gubbalasaimani/Smart-Expense-Tracker.git
 
-
-
-
-
-2\. Open the project folder:
+```
 
 
 
-bash
-
-cd ExpenseTracker
+\### 2. Open the project folder
 
 
 
+```bash
 
+cd Smart-Expense-Tracker
 
-3\. Create and activate a virtual environment.
-
-
-
-4\. Install the required packages:
+```
 
 
 
-bash
+\### 3. Create a virtual environment
+
+
+
+```bash
+
+python -m venv venv
+
+```
+
+
+
+\### 4. Activate the virtual environment
+
+
+
+For Windows CMD:
+
+
+
+```bash
+
+venv\\Scripts\\activate
+
+```
+
+
+
+\### 5. Install the required packages
+
+
+
+```bash
 
 pip install -r requirements.txt
 
+```
 
 
 
-
-5\. Configure the MySQL database in `ExpenseTracker/settings.py`.
-
-
-
-6\. Run migrations:
+\### 6. Configure the MySQL database
 
 
 
-bash
+Open:
+
+
+
+```text
+
+ExpenseTracker/settings.py
+
+```
+
+
+
+Configure your MySQL database details.
+
+
+
+\### 7. Run migrations
+
+
+
+```bash
 
 python manage.py makemigrations
 
 python manage.py migrate
 
+```
 
 
 
-
-7\. Start the development server:
-
+\### 8. Start the development server
 
 
-bash
+
+```bash
 
 python manage.py runserver
 
+```
 
 
 
-
-8\. Open the application in a browser:
-
+\### 9. Open the application
 
 
-text
+
+Open this address in your browser:
+
+
+
+```text
 
 http://127.0.0.1:8000/
 
-
+```
 
 
 
@@ -292,7 +318,7 @@ http://127.0.0.1:8000/
 
 
 
-\*\*Gubbala Saimani\*\*
+Gubbala Saimani
 
 
 
