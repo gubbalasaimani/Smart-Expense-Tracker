@@ -1,4 +1,4 @@
-\# Smart Expense Tracker
+Smart Expense Tracker
 
 
 
@@ -6,7 +6,7 @@ A web-based expense management application developed using Python, Django, and M
 
 
 
-\## Features
+Features
 
 
 
@@ -46,7 +46,7 @@ A web-based expense management application developed using Python, Django, and M
 
 
 
-\## Technologies Used
+Technologies Used
 
 
 
@@ -72,7 +72,7 @@ A web-based expense management application developed using Python, Django, and M
 
 
 
-\## Project Modules
+Project Modules
 
 
 
@@ -92,11 +92,11 @@ A web-based expense management application developed using Python, Django, and M
 
 
 
-\## Database Models
+Database Models
 
 
 
-\### Category
+Category
 
 
 
@@ -114,7 +114,7 @@ Fields:
 
 
 
-\### Expense
+Expense
 
 
 
@@ -140,7 +140,7 @@ Fields:
 
 
 
-\### Budget
+Budget
 
 
 
@@ -149,151 +149,62 @@ Stores the monthly budget for each category.
 
 
 Fields:
-
-
-
 \* id
-
 \* category
-
 \* monthly\_limit
 
 
 
-\## Installation and Setup
-
-
-
-\### 1. Clone the repository
-
-
-
-```bash
-
+Installation and Setup
+1. Clone the repository
+bash
 git clone https://github.com/gubbalasaimani/Smart-Expense-Tracker.git
-
-```
-
-
-
-\### 2. Open the project folder
-
-
-
-```bash
-
+2. Open the project folder
+3. bash
 cd Smart-Expense-Tracker
 
-```
-
-
-
-\### 3. Create a virtual environment
-
-
-
-```bash
-
+3. Create a virtual environment
+bash
 python -m venv venv
 
-```
-
-
-
-\### 4. Activate the virtual environment
-
-
+5. Activate the virtual environment
 
 For Windows CMD:
-
-
-
-```bash
+bash
 
 venv\\Scripts\\activate
 
-```
-
-
-
-\### 5. Install the required packages
-
-
-
-```bash
-
+5. Install the required packages
+bash
 pip install -r requirements.txt
 
-```
-
-
-
-\### 6. Configure the MySQL database
-
-
-
+6. Configure the MySQL database
 Open:
-
-
-
-```text
+text
 
 ExpenseTracker/settings.py
 
-```
-
-
-
 Configure your MySQL database details.
 
-
-
-\### 7. Run migrations
-
-
-
-```bash
+7. Run migrations
+bash
 
 python manage.py makemigrations
 
 python manage.py migrate
 
-```
-
-
-
-\### 8. Start the development server
-
-
-
-```bash
+8. Start the development server
+bash
 
 python manage.py runserver
 
-```
-
-
-
-\### 9. Open the application
-
-
+9. Open the application
 
 Open this address in your browser:
-
-
-
-```text
-
+text
 http://127.0.0.1:8000/
 
-```
-
-
-
-\## Future Enhancements
-
-
-
+Future Enhancements
 \* User-specific expenses, categories, and budgets
 
 \* Password reset functionality
@@ -312,24 +223,11 @@ http://127.0.0.1:8000/
 
 \* Machine learning-based expense prediction
 
-
-
-\## Developer
-
-
-
+Developer
 Gubbala Saimani
-
-
-
 B.Tech – Computer Science and Engineering
 
-
-
-\## Project Status
-
-
-
+Project Status
 Completed and tested.
 
 
